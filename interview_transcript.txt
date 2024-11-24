@@ -1,0 +1,69 @@
+
+
+**Interviewer:** Hi, Alex! Welcome, and thank you for joining us today. I’m Emily, and I’ll be conducting your interview for the Google STEP internship. How are you feeling?  
+
+**Alex (Student):** Hi, Emily! Thanks for having me. I’m a bit nervous, but mostly excited to be here and share more about myself.  
+
+**Emily:** That’s completely normal. We’re excited to learn about your experiences and skills. Why don’t we start with you telling me a little bit about yourself?  
+
+**Alex:** Sure! I’m Alex Thompson, a freshman at Rutgers University studying Computer Science. I’ve always been fascinated by how technology can solve real-world problems, which is why I’ve been working on AI and computer vision projects. Outside of academics, I enjoy participating in hackathons—they’re a great way to learn new skills and collaborate with like-minded people.  
+
+**Emily:** That sounds wonderful. Can you tell me about a project you’re particularly proud of?  
+
+**Alex:** Absolutely. One of my favorite projects is Frax AI, an AI platform I built to analyze X-rays and detect fractures in emergency situations. It identifies fracture types, severity, and even provides treatment recommendations.  
+
+**Emily:** That’s impressive. What was the most challenging part of that project?  
+
+**Alex:** The biggest challenge was training the AI model efficiently. My MacBook Air’s processing power wasn’t ideal, so I had to optimize the code and use smaller batch sizes for training. This taught me to adapt and work within constraints effectively.  
+
+**Emily:** Resourcefulness is a great skill to have. Let’s switch gears. Here’s a technical problem for you: Imagine you’re given an array of integers. How would you find the longest subsequence where the numbers are in increasing order?  
+
+**Alex:** Hmm, okay. I’d start by considering a brute-force solution where I generate all subsequences and check their validity, but that would be very inefficient. A better approach would involve dynamic programming. I’d create a DP array where each index stores the length of the longest increasing subsequence ending at that index.  
+
+**Emily:** Great start. How would you update the DP array?  
+
+**Alex:** For each element, I’d compare it with all previous elements. If the current element is greater than a previous one, I’d update the DP value to be the maximum of its current value or the previous value plus one.  
+
+**Emily:** And the time complexity for that approach?  
+
+**Alex:** I believe it’s O(n²) because of the nested loops.  
+
+**Emily:** That’s correct. Can you think of a way to optimize it further?  
+
+**Alex:** (Pauses) Yes, by using binary search to find the position of the current element in a sorted array, I could reduce the time complexity to O(n log n).  
+
+**Emily:** Spot on! Let’s try another one. How would you design a URL shortening service like bit.ly?  
+
+**Alex:** I’d start by creating a database to store long URLs and their corresponding short URLs. Each short URL would map to a unique ID in the database.  
+
+**Emily:** Good start. How would you ensure the short URLs are unique?  
+
+**Alex:** I could generate random strings as short URLs.  
+
+**Emily:** Random strings might work, but what happens if there’s a collision?  
+
+**Alex:** (Pauses) Oh, I didn’t consider collisions. In that case, I’d check the database to ensure the string doesn’t exist and regenerate if necessary.  
+
+**Emily:** That’s a good solution. Alternatively, you could use hashing combined with an incremental ID for efficiency.  
+
+**Alex:** That’s a smart idea. Thank you for pointing that out.  
+
+**Emily:** No problem! Let me ask a softer question: What do you typically do when you’re stuck on a tough problem?  
+
+**Alex:** When I’m stuck, I usually break the problem into smaller parts to tackle them individually. If I’m still stuck, I’ll take a break or try explaining the problem to a friend or colleague. Explaining it often helps me see the issue more clearly.  
+
+**Emily:** That’s a solid approach. Can you recall a specific time you got stuck and how you resolved it?  
+
+**Alex:** Yes, during the Frax AI project, I struggled with edge cases where the predictions were inaccurate. After digging deeper, I found that some training images were mislabeled. Fixing those labels significantly improved the model’s accuracy.  
+
+**Emily:** That’s a great example of debugging and perseverance. Do you have any questions for me before we wrap up?  
+
+**Alex:** Yes, what do you think makes someone successful in this internship role?  
+
+**Emily:** That’s a good question. I’d say curiosity, collaboration, and the ability to approach challenges creatively are key.  
+
+**Alex:** Thank you. I’ll definitely keep that in mind.  
+
+**Emily:** It was great speaking with you, Alex. We’ll be in touch soon.  
+
+**Alex:** Thank you, Emily! I really appreciate this opportunity.  
